@@ -405,6 +405,7 @@ new function() {
 		exportSvg: function() {
 			var svg = createElement('svg'),
 				layers = this.layers;
+			svg.setAttributeNS(null,'version','1.1');
 			for (var i = 0, l = layers.length; i < l; i++)
 				svg.appendChild(layers[i].exportSvg());
 			return svg;
