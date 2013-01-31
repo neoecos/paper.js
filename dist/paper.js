@@ -9,14 +9,12 @@
  *
  * All rights reserved.
  *
- * Date: Mon Jan 28 17:32:46 2013 -0800
+ * Date: Mon Jan 28 18:03:27 2013 -0800
  *
  ***
  *
- * Bootstrap.js JavaScript Framework.
- * http://bootstrapjs.org/
- *
- * Copyright (c) 2006 - 2011 Juerg Lehni
+ * Bootstrap.js JavaScript Inheritance Micro-Framework
+ * Copyright (c) 2006 - 2013 Juerg Lehni
  * http://lehni.org/
  *
  * Distributed under the MIT license.
@@ -26,10 +24,8 @@
  * Acorn.js
  * http://marijnhaverbeke.nl/acorn/
  *
- * Acorn is a tiny, fast JavaScript parser written in JavaScript.
- * 
- * Acorn was written by Marijn Haverbeke and released under an MIT
- * license.
+ * Acorn is a tiny, fast JavaScript parser written in JavaScript,
+ * created by Marijn Haverbeke and released under an MIT license.
  *
  */
 
