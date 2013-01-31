@@ -9,7 +9,7 @@
  *
  * All rights reserved.
  *
- * Date: Mon Jan 28 18:03:27 2013 -0800
+ * Date: Thu Jan 31 00:40:01 2013 -0500
  *
  ***
  *
@@ -6777,6 +6777,7 @@ new function() {
 		exportSvg: function() {
 			var svg = createElement('svg'),
 				layers = this.layers;
+			svg.setAttributeNS(null,'version','1.1');
 			for (var i = 0, l = layers.length; i < l; i++)
 				svg.appendChild(layers[i].exportSvg());
 			return svg;
